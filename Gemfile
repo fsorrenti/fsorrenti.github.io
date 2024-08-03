@@ -10,7 +10,6 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.3"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
-gem "jekyll-theme-hydejack"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -20,8 +19,30 @@ group :jekyll_plugins do
 end
 
 # Gemfile
-gem 'csv'
 gem 'base64'
+
+
+gem 'rake', '13.2.1'
+gem 'public_suffix', '6.0.1'
+gem 'addressable', '2.8.7'
+gem 'bigdecimal', '3.1.8'
+gem 'concurrent-ruby', '1.3.3'
+gem 'csv', '3.3.0'
+gem 'ffi', '1.17.0'
+gem 'google-protobuf', '4.27.3'
+gem 'i18n', '1.14.5'
+gem 'sass-embedded', '1.77.8'
+gem 'jekyll-sass-converter', '3.0.0'
+gem 'rb-inotify', '0.11.1'
+gem 'listen', '3.9.0'
+gem 'strscan', '3.1.0'
+gem 'rexml', '3.3.4'
+gem 'mercenary', '0.4.0'
+gem 'rouge', '4.3.0'
+gem 'unicode-display_width', '2.5.0'
+gem 'terminal-table', '3.0.2'
+gem 'webrick', '1.8.1'
+gem 'jekyll-theme-hydejack', '9.1.6'
 
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
