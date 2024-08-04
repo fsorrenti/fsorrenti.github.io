@@ -33,9 +33,9 @@ github_username:  jekyll
 theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
 
-
+# Custom settings
+sidebar-bg: /assets/images/sidebar-bg.jpg # Path to your new sidebar image
 
 # Exclude from processing.
 # The following items will not be processed, by default.
