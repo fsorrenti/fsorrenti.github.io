@@ -43,7 +43,7 @@ gem 'unicode-display_width', '2.5.0'
 gem 'terminal-table', '3.0.2'
 gem 'webrick', '1.8.1'
 gem 'jekyll-theme-hydejack', '9.1.6'
-
+gem 'jekyll-include-cache'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
