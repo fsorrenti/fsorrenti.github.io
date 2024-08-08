@@ -1,7 +1,0 @@
-// assets/css/main.scss o main.scss
-
-@import "hydejack/_variables";  // Importa le variabili del tema Hydejack, se necessario
-@import "hydejack/_mixins";     // Importa mixins del tema Hydejack, se necessario
-@import "hydejack/_sidebar.pre"; // Importa il file predefinito della sidebar
-@import "custom/_sidebar.custom"; // Importa le tue personalizzazioni
-
