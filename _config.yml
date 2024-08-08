@@ -35,7 +35,11 @@ plugins:
   - jekyll-feed
 
 # Custom settings
-sidebar-bg: /assets/images/sidebar-bg.jpg # Path to your new sidebar image
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
