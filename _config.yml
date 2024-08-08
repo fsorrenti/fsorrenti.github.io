@@ -39,6 +39,10 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
+  load_paths:
+    - _sass
+
+
 
 
 # Where things are
