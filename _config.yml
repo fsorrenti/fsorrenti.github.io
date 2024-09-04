@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Francesco Sorrenti
+title: Franc Sorrenti
 email: francesco.sorrenti@unige.ch
 description: I am a doctoral students in Cosmology at the University of Geneva
 baseurl: "" # the subpath of your site, e.g. /blog
