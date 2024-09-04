@@ -1,0 +1,15 @@
+// _sass/custom.scss
+
+// Definisci il percorso dell'immagine di sfondo per la sidebar
+$sidebar-bg-image: url('../assets/img/sidebar-bg.jpg');
+
+// Stile per la sidebar
+.sidebar {
+    background-image: $sidebar-bg-image;
+    background-size: cover;
+    background-position: center;
+    width: 300px; // Dimensione della sidebar, puoi modificarla secondo le tue necessità
+    height: 100vh; // Altezza della sidebar che copre l'intera pagina
+    color: #fff; // Colore del testo
+    padding: 20px; // Spaziatura interna
+}
