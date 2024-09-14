@@ -1,24 +1,101 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Francesco Sorrenti - Publications</title>
-    <style>
-        div.arxivfeed {
-            margin-bottom: 5px;
-            width: 700px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Nate Rules!</h1>
-    <p>Stuff goes here</p>
+<html lang="en-GB">
+    <head>
+        <title> Davide Piras - Publications </title>
+        <!-- Metadata -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <!-- Icon -->
+        <link
+            rel="icon"
+            href="/assets/images/favicon.ico"
+            type="image/x-icon"
+        />
+        <!-- Custom CSS -->
+        <link
+            rel="stylesheet"
+            href="/assets/css/style.css?v="
+        />
+	<!-- Montserrat -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous"
+        />
+        <!-- particles.js -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+        <script src="/assets/js/app.js"></script>
+        <!-- Arxiv -->
+        <script type="text/javascript">
+            var arxiv_authorid = "piras_d_1";
+            var arxiv_format = "arxiv";
+            var arxiv_max_entries = 0;
+            var arxiv_includeTitle = 1;
+            var arxiv_includeSummary = 0;
+        </script>
+        <script
+            type="text/javascript"
+            src="https://arxiv.org/js/myarticles.js"
+        ></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDRLXGFTM2"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+  	gtag('config', 'G-DDRLXGFTM2');
+	</script>
+
+    </head>
+
+    <body>
+         
+        <header class="header">
+            <div>
+                <a rel="author" href="/">
+                    Home
+                </a>
+                             
+                <a href="/about/"
+                    >About</a
+                >
+                     
+                <a href="/publications/"
+                    >Publications</a
+                >
+                     
+                <a href="/CV/"
+                    >CV</a
+                >
+                      
+            </div>
+            <div id="particles-js"></div>
+        </header>
+    </body>
+</html>
+
+
+<main aria-label="Content">
+    <div>
+            <h1 class="Publications-title"  style="margin-left:10px">
+                List of publications
+            </h1>
+		<p style="margin-left:10px">
+		     <a href="mailto:d.piras@ucl.ac.uk">Contact me</a> if you want to know more about any of these.
+		</p> 
+        <article class="publications">
     <div id="arxivfeed"></div>
-    
-    <!-- Load the arXiv articles script -->
-    <script type="text/javascript">
-        var arxiv_authorid = "https://orcid.org/0000-0001-7141-9659";
-    </script>
-    <script type="text/javascript" src="https://arxiv.org/js/myarticles.js"></script>
+</article>
+
+    </div>
+</main>
+
 </body>
+
 </html>
