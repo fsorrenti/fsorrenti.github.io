@@ -1,91 +1,35 @@
-<html lang="en-GB">
-    <head>
-        <title> Davide Piras - Publications </title>
-        <!-- Metadata -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-
-	<!-- Montserrat -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-        <!-- Font Awesome -->
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-            crossorigin="anonymous"
-        />
-        <!-- particles.js -->
-        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-        <script src="/assets/js/app.js"></script>
-        <!-- Arxiv -->
-        <script type="text/javascript">
-            var arxiv_authorid = "https://orcid.org/0000-0001-7141-9659";
-            var arxiv_format = "arxiv";
-            var arxiv_max_entries = 0;
-            var arxiv_includeTitle = 1;
-            var arxiv_includeSummary = 0;
-        </script>
-        <script
-            type="text/javascript"
-            src="https://arxiv.org/js/myarticles.js"
-        ></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDRLXGFTM2"></script>
-	<script>
-  	window.dataLayer = window.dataLayer || [];
-  	function gtag(){dataLayer.push(arguments);}
-  	gtag('js', new Date());
-
-  	gtag('config', 'G-DDRLXGFTM2');
-	</script>
-
-    </head>
-
-    <body>
-         
-        <header class="header">
-            <div>
-                <a rel="author" href="/">
-                    Home
-                </a>
-                             
-                <a href="/about/"
-                    >About</a
-                >
-                     
-                <a href="/publications/"
-                    >Publications</a
-                >
-                     
-                <a href="/CV/"
-                    >CV</a
-                >
-                      
-            </div>
-            <div id="particles-js"></div>
-        </header>
-    </body>
-</html>
-
-
-<main aria-label="Content">
-    <div>
-            <h1 class="Publications-title"  style="margin-left:10px">
-                List of publications
-            </h1>
-		<p style="margin-left:10px">
-		     <a href="mailto:d.piras@ucl.ac.uk">Contact me</a> if you want to know more about any of these.
-		</p> 
-        <article class="publications">
-    <div id="arxivfeed"></div>
-</article>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #fff; /* Ensure background is white */
+        }
+        .pdf-container {
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            border: none; /* Remove any border around the container */
+            overflow: hidden; /* Hide any overflow */
+        }
+        iframe, embed {
+            width: 100%;
+            height: 100%;
+            border: none; /* Remove any default border */
+        }
+    </style>
+</head>
+<body>
+    <div class="pdf-container">
+        <iframe src="/cv/cv.pdf">
+            This browser does not support PDFs. Please download the PDF to view it: <a href="/cv/Sorrenti_s_Curriculum_Vitae.pdf">Download PDF</a>.
+        </iframe>
     </div>
-</main>
-
 </body>
-
 </html>
