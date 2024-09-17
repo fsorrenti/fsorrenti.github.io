@@ -115,12 +115,54 @@ html{--accent-color: rgb(194, 59, 6);--accent-color-faded: rgba(194, 59, 6, 0.5)
   
   
 </ul></nav>
-  
 
+   
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">Home</h1>
+    
+  <div class="hr pb0"></div>
+  </header>
+  
+  <hr class="dingbat related"/>
+  
+    <h2 class="hr-bottom">Posts</h2>
+    <ul class="related-posts">
+      
+        
+   
+
+   
+    <style>
+        div.arxivfeed {
+            margin-bottom: 5px;
+            width: 700px;
+        }
+    </style>
+</head>
+<body>
+    <h1>List of pubblications</h1>
+    <p>		     <a href="mailto:francesco.sorrenti@unige.ch">Fell free to contact me</a> for any questions or suggestions.
+</p>
+    <div id="arxivfeed"></div>
+    
+    <!-- Load the arXiv articles script -->
+    <script type="text/javascript">
+        var arxiv_authorid = "https://orcid.org/0000-0001-7141-9659";
+    </script>
+    <script type="text/javascript" src="https://arxiv.org/js/myarticles.js"></script>
+</body>
+</html>
+
+
+   
   
 <footer class="content" role="contentinfo">
   <hr/>
+ 
+</article>
   
+ 
     <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.6</span></small></p>
   <hr class="sr-only"/>
 </footer>
@@ -260,25 +302,5 @@ I am a doctoral student in Cosmology at the University of Geneva. Welcome! <br>
   </a>
 </template>
 </div>
-</body>
-</html>
-    <style>
-        div.arxivfeed {
-            margin-bottom: 5px;
-            width: 700px;
-        }
-    </style>
-</head>
-<body>
-    <h1>List of pubblications</h1>
-    <p>		     <a href="mailto:francesco.sorrenti@unige.ch">Fell free to contact me</a> for any questions or suggestions.
-</p>
-    <div id="arxivfeed"></div>
-    
-    <!-- Load the arXiv articles script -->
-    <script type="text/javascript">
-        var arxiv_authorid = "https://orcid.org/0000-0001-7141-9659";
-    </script>
-    <script type="text/javascript" src="https://arxiv.org/js/myarticles.js"></script>
 </body>
 </html>
