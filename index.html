@@ -143,31 +143,30 @@ html{--accent-color: rgb(194, 59, 6);--accent-color-faded: rgba(194, 59, 6, 0.5)
             
     </ul>
 
- <style>
+<style>
   .about-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 20px;
     padding: 10px;
-    background-color: transparent; /* Set the background to transparent */
-    border-radius: 5px; /* Keep border-radius for rounded corners if needed */
+    background-color: transparent; /* Transparent background */
+    border-radius: 5px; /* Optional rounded corners */
   }
 
   .about-text {
-    flex: 1; /* Make the text section take the available space */
+    flex: 1;
     padding-right: 20px;
   }
 
   .about-photo {
-    flex-shrink: 0; /* Prevent the image from shrinking */
-    width: 200px; /* Set a fixed width for the image */
+    flex-shrink: 0;
+    width: 200px;
   }
 
   .about-photo img {
-    width: 100%;
-    border-radius: 50%; /* Optional: Make the image circular */
-    object-fit: cover; /* Ensure the image covers the area nicely */
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    object-fit: cover; /* Ensure the image fits the container without stretching */
   }
 
   .about-section h2 {
